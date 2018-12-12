@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cxw.com.commonapp.widget.titlebar.widget.CommonTitleBar
+        android:id="@+id/project_ctv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/project_ctl"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/project_ctl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#E45171"
+        app:tl_indicator_corner_radius="1.5dp"
+        app:tl_indicator_height="3dp"
+        app:tl_indicator_width="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/project_vp"
+        app:layout_constraintTop_toBottomOf="@+id/project_ctv" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/project_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/project_ctl" />
+
+</android.support.constraint.ConstraintLayout>

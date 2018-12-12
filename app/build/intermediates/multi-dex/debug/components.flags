@@ -1,0 +1,121 @@
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\6'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\0.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\1.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\2.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\3.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\4.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\5.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\7.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\8.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\9.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\10.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\11.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\12.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\13.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\14.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\15.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\16.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\17.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\18.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\19.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\20.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\21.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\22.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\23.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\24.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\25.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\26.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\27.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\28.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\29.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\30.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\31.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\32.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\33.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\34.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\35.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\36.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\37.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\38.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\39.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\40.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\41.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\42.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\43.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\44.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\45.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\46.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\47.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\48.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\49.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\50.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\51.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\52.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\53.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\54.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\55.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\56.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\57.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\58.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\59.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\60.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\61.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\62.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\63.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\64.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\65.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\66.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\67.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\68.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\69.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\70.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\71.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\72.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\73.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\74.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\75.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\76.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\77.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\78.jar'(**.class)
+-injars 'G:\work\WanAndroidAPP\app\build\intermediates\transforms\desugar\debug\79.jar'(**.class)
+-outjars 'G:\work\WanAndroidAPP\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'G:\android-sdk-windows\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'G:\work\WanAndroidAPP\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at G:\work\WanAndroidAPP\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:18
+-keep class cxw.com.commonapp.base.BaseApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

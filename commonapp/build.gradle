@@ -1,0 +1,101 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'org.greenrobot.greendao'
+
+def ext = rootProject.ext
+def version = ext.versions
+def dependencie = ext.dependencies
+
+android {
+    compileSdkVersion version.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion version.minSdkVersion
+        targetSdkVersion version.targetSdkVersion
+        versionCode version.versionCode
+        versionName version.versionName
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //阿里路由配置
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    greendao {
+        schemaVersion 1//版本号
+        daoPackage 'cxw.com.wanandroidapp.history'
+        targetGenDir 'src/main/java'
+    }
+
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api dependencie.junit
+    api dependencie.runner
+    api dependencie.core
+    api dependencie.design
+    //阿里开源的路由框架，用于组件化通信
+    api dependencie.arouter_api
+    annotationProcessor dependencie.arouter_compiler
+
+    //网络框架OKhttp
+    api dependencie.okhttp
+    api dependencie.okhttp_logging
+    api dependencie.okio
+    api dependencie.card_view
+    //retrofit
+    api dependencie.retrofit
+    api dependencie.retrofit_adapter_rxjava
+    api dependencie.retrofit_converter_gson
+    api dependencie.scalars
+    //Rx
+    api dependencie.rxjava
+    api dependencie.rxandroid
+    api dependencie.rxlifecycle
+    //处理rxjava内存泄露
+    api dependencie.rxlifecycle_components
+    api dependencie.rxbinding
+    //EvenBus
+    api dependencie.eventbus
+
+    //Gson
+    api dependencie.gson
+    //黄油刀
+    api dependencie.butterknife
+    annotationProcessor dependencie.butterknife_compiler
+    //图片加载框架
+    api dependencie.glide
+    api dependencie.constraint_layout
+    api dependencie.banner
+    api dependencie.avi
+    api dependencie.nineoldandroids
+    api dependencie.roundview
+    api dependencie.loadsir
+    api dependencie.brvah
+    api dependencie.smart_refresh_layout
+    api dependencie.recycler_view
+    api dependencie.tablayout
+    api dependencie.flexbox
+    api dependencie.SuperTextView
+    api dependencie.greendao
+    api dependencie.titlebar
+
+
+    implementation files('libs/tbs_sdk_thirdapp_v3.6.0.1310_43612_sharewithdownload_withoutGame_obfs_20180706_163319.jar')
+}

@@ -1,0 +1,30 @@
+apply from: "config.gradle"
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+        //黄油刀配置
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        //黄油刀配置
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+         //greendao
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

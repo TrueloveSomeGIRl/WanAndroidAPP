@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.X5WebViewActivity">
+
+    <com.wuhenzhizao.titlebar.widget.CommonTitleBar
+        android:id="@+id/x5wb_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:centerType="textView"
+        app:leftDrawable="@drawable/comm_titlebar_back_normal"
+        app:leftDrawablePadding="0dp"
+        app:leftType="imageButton"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:indeterminateDrawable="@drawable/color_progressbar"
+        android:max="100"
+        app:layout_constraintTop_toBottomOf="@id/x5wb_toolbar" />
+
+    <cxw.com.commonapp.utils.X5WebView
+        android:id="@+id/x5_wb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pb" />
+
+</android.support.constraint.ConstraintLayout>

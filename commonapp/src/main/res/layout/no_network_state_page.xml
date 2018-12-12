@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <ImageView
+         android:id="@+id/no_net_work"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         android:background="@drawable/no_network"
+         android:layout_width="wrap_content"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent"
+         android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="网络出问题了请点击重试"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/no_net_work"
+        android:layout_height="wrap_content" />
+</android.support.constraint.ConstraintLayout>

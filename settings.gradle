@@ -1,0 +1,1 @@
+include ':app', ':commonapp', ':wanandroidapp_login', ':wanandroidapp_home', ':wanandroidapp_system', ':wanandroidapp_project', ':wanandroidapp_my'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_bnv_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_project"
+        android:icon="@mipmap/ic_bnv_project"
+        android:title="@string/title_project" />
+
+    <item
+        android:id="@+id/navigation_system"
+        android:icon="@mipmap/ic_bnv_system"
+        android:title="@string/title_system" />
+
+    <item
+        
+        android:id="@+id/navigation_my"
+        android:icon="@mipmap/ic_bnv_my"
+        android:title="@string/title_my" />
+</menu>
